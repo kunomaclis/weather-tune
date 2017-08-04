@@ -1,0 +1,31 @@
+<h2>Hello, <%=@user.username%></h2>
+<br>
+<div class="row">
+<div class='col-md-10'>
+ <ul>
+ <p>Your Auctions: <a href="/auctions/new"><p class="text-right">Add Auction</p></a></p>
+
+ <table class="table">
+ <th>Auction</th>
+ <th>Expires @</th>
+ <th colspan='2'>High Bid</th>
+   <% @user.auctions.order(ends_at: :desc).each do |auction|%>
+   <tr>
+     <td><a href="/auctions/<%=auction.id%>"><%=auction.title%></a></td>
+     <% if auction.ends_at < Time.now %>
+     <td>Expired!!!</td>
+     <%else%>
+     <td><%=auction.ends_at%></td>
+     <%end%>
+     <td>$<%=auction.highest%></td>
+     <td><a href="/auctions/<%=auction.id%>/edit">Edit</a> |
+     <form class="inline" method="post" action="/auctions/<%= auction.id %>/delete">
+     <input type="hidden" name="_method" value="delete">
+     <input id="delete-button" type="submit" value="Delete">
+     </form></td>
+     </tr>
+     <% end %>
+     </table>
+ </ul>
+ </div>
+ </div>
