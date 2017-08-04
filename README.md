@@ -3,7 +3,7 @@
 ## APIs
 * [Ipinfo](https://ipinfo.io/) to gather current location
 * [Openweathermap](http://openweathermap.org/) for weather updates
-  * A plus of using openweather is the includsion of changing weather icons.
+  * A plus of using Openweather is the inclusion of changing weather icons.
 
 Bulk of code is Javascript in Sinatra with the hopes of adding future content.
 
