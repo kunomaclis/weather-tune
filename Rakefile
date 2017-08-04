@@ -138,7 +138,7 @@ task "console" do
   exec "irb -r./config/environment"
 end
 
-
+#
 # In a production environment like Heroku, RSpec might not
 # be available.  To handle this, rescue the LoadError.
 # https://devcenter.heroku.com/articles/getting-started-with-ruby-o#runtime-dependencies-on-development-test-gems
