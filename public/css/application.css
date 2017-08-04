@@ -2,13 +2,14 @@ html, body {
   background-image: url(white-background-1.jpg);
 }
 
+
 .results {
-background-color: #8A8E91;
-color: #FFFFFF;
+background: #8A8E91;
+border-radius: 15px;
 }
 
 .top-frame {
   color: #FFFFFF;
-  background-color: #555358;
+  background-color: #3E6990;
 }
 
