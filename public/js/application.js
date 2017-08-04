@@ -1,7 +1,13 @@
 $(document).ready(function() {
-  // This is called after the document has loaded in its entirety
-  // This guarantees that any elements we bind to will exist on the page
-  // when we try to bind to them
 
-  // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+  // get lat long
+  var loc;
+
+  $.getJSON('https:/ipinfo.io', function(d){
+    console.log("assigning location data");
+    loc = d.loc;
+    // Call to weather api
+
+  });
+
 });

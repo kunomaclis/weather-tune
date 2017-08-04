@@ -4,6 +4,7 @@ html, body {
 
 
 .results {
+padding: 10px;
 background: #8A8E91;
 border-radius: 15px;
 }
