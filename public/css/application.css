@@ -2,11 +2,18 @@ html, body {
   background-image: url(white-background-1.jpg);
 }
 
+a:link {
+  color: #BFC0C0;
+}
+
+a:visited {
+  color: #BFC0C0;
+}
 
 .results {
-padding: 10px;
-background: #8A8E91;
-border-radius: 15px;
+  padding: 10px;
+  background: #8A8E91;
+  border-radius: 15px;
 }
 
 .top-frame {
