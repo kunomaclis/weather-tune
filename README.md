@@ -1,4 +1,4 @@
-# WeatherTune - Current Location Weather
+# eatherTune - Current Location Weather
 
 ## APIs
 * [Ipinfo](https://ipinfo.io/) to gather current location
