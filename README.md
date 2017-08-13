@@ -2,7 +2,7 @@
 
 ## How to use
 * Git clone
-* Bundle install in directory
+* ```bundle install``` in directory
 * ``` be shotgun ``` and go to localhost:9393
 
 ## APIs
