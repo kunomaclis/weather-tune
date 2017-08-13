@@ -3,7 +3,7 @@
 ## How to use
 * ```git clone```
 * ```bundle install``` in directory
-* ``` be shotgun ``` and go to localhost:9393
+* ``` be shotgun ``` and go to localhost:9393 
 
 ## APIs
 * [Ipinfo](https://ipinfo.io/) to gather current location
