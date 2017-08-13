@@ -1,7 +1,7 @@
 # WeatherTune - Current Location Weather
 
 ## How to use
-* Git clone
+* ```git clone```
 * ```bundle install``` in directory
 * ``` be shotgun ``` and go to localhost:9393
 
